@@ -2,7 +2,6 @@
 
 
 1. Activar Python virtualenv
-
 `cd API` (nombre del virtualenv actual)
 
 `source bin/activate`
@@ -10,7 +9,7 @@
 `(API)$` Debe verse el nombre del virtenv en la terminal
 
 
-⋅⋅* Desactivar Python virtualenv
+* Desactivar Python virtualenv
 
 ⋅⋅⋅`(API)$ deactivate`
 
@@ -18,6 +17,9 @@
 2. Instala los requisitos
 
 ⋅⋅⋅ `pip install -r requirements.txt`
+
+... Para crear los requirements
+⋅⋅⋅ `pip freeze > requirements.txt`
 
 3. Crea una base de datos llamada `puppy_store_drf`
 
